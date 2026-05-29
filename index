@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StudyBook</title>
+
+  <!-- Mobile responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="icon" href="favicon.ico">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #0f172a;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    iframe {
+      border: none;
+    }
+
+    /* 📱 MOBILE (App style) */
+    @media (max-width: 600px) {
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    /* 💻 PC (Full screen) */
+    @media (min-width: 601px) {
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    /* 💻 Optional Tablet/Desktop Center Box (uncomment if needed)
+    @media (min-width: 900px) {
+      iframe {
+        max-width: 420px;
+        height: 95%;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      }
+    }
+    */
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <iframe 
+      src="https://script.google.com/macros/s/AKfycbxHqIRVtL6gCrCz3zHqgtQbcHuY2U7_fKsi3rQKS4sBUFQTZCRv7-xSKV89tPiVKuHA/exec"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
